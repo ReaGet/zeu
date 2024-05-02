@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-start gap-8 overflow-x-auto">
+  <section class="flex justify-start gap-8 overflow-x-auto">
     <div
       v-for="[title, value] in infoBlocks"
       :key="title"
@@ -8,7 +8,7 @@
       <span class="text-2xl font-bold line-clamp-1">{{  value  }}</span>
       <span class="text-lg uppercase">{{ title }}</span>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

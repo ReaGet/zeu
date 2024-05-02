@@ -17,7 +17,7 @@ export type Channel = {
 
   shorts?: Video[];
   posts?: Post[];
-  videos?: Video[];
+  videos: Video[];
 }
 
 export type Video = {
@@ -29,8 +29,8 @@ export type Video = {
   duration: number
   viewsCount: number
   thumbnail: string
-  createdAt: string
-  updatedAt: string
+  uploadDate: string
+  publishDate: string
 }
 
 export type Post = {
